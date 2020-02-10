@@ -1,16 +1,27 @@
-package com.hardwjj.authentication;
+package com.hardwjj.authentication.auth;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
+ * api请求类
+ *
  * @author wjiajun
  */
 public class ApiRequest {
 
+    /**
+     * 原始url
+     */
     private String baseUrl;
 
     private String token;
 
     private String appId;
 
+    /**
+     * 应用传来的过期时间
+     */
     private long timestamp;
 
     public ApiRequest(String baseUrl, String token, String appId, long timestamp) {
@@ -21,11 +32,15 @@ public class ApiRequest {
     }
 
     public static ApiRequest buildFromUrl(String url) {
-        return null;
+        Map<String, String> map = parseUrl(url);
+        return new ApiRequest(map.get("baseUrl"), map.get("token"), map.get("appId"), Long.parseLong(map.get("timestamp")));
     }
 
-    public String getBaseUrl() {
-        return baseUrl;
+    private static Map<String, String> parseUrl(String url) {
+        Map<String, String> parsedMap = new HashMap<>();
+        // 解析url
+        // ...
+        return parsedMap;
     }
 
     public String getToken() {
@@ -41,6 +56,6 @@ public class ApiRequest {
     }
 
     public String getOriginalUrl() {
-        return null;
+        return baseUrl;
     }
 }
