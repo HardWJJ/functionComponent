@@ -1,7 +1,7 @@
-package com.hardwjj.authentication;
+package com.hardj.authentication;
 
-import com.hardwjj.authentication.auth.ApiAuthenticator;
-import com.hardwjj.authentication.auth.DefaultApiAuthenticatorImpl;
+import com.hardj.authentication.auth.ApiAuthenticator;
+import com.hardj.authentication.auth.DefaultApiAuthenticatorImpl;
 
 /**
  * @author wjiajun

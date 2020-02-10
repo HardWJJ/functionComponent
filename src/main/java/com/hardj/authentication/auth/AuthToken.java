@@ -1,6 +1,6 @@
-package com.hardwjj.authentication.auth;
+package com.hardj.authentication.auth;
 
-import com.hardwjj.authentication.storage.MD5;
+import com.hardj.authentication.storage.MD5;
 
 /**
  * @author wjiajun

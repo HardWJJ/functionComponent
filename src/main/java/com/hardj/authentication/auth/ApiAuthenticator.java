@@ -1,4 +1,4 @@
-package com.hardwjj.authentication.auth;
+package com.hardj.authentication.auth;
 
 public interface ApiAuthenticator {
     void auth(String url);

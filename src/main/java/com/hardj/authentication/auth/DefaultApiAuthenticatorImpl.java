@@ -1,7 +1,7 @@
-package com.hardwjj.authentication.auth;
+package com.hardj.authentication.auth;
 
-import com.hardwjj.authentication.storage.CredentialStorage;
-import com.hardwjj.authentication.storage.MysqlCredentialStorage;
+import com.hardj.authentication.storage.CredentialStorage;
+import com.hardj.authentication.storage.MysqlCredentialStorage;
 
 /**
  * 默认权限校验实现

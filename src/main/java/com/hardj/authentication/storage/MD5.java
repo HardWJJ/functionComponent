@@ -1,4 +1,4 @@
-package com.hardwjj.authentication.storage;
+package com.hardj.authentication.storage;
 
 import java.security.MessageDigest;
 

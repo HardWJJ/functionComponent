@@ -1,4 +1,4 @@
-package com.hardwjj.authentication.auth;
+package com.hardj.authentication.auth;
 
 import java.util.HashMap;
 import java.util.Map;
